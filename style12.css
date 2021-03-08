@@ -1,0 +1,1110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* .data{
+    display: flex;
+    margin-left: 472px;
+    margin-right: -907px;
+    margin-top: -65px;
+}
+.data p{
+    margin-top: 0;
+    margin-right: 12px;
+}
+.data h5{
+    margin-right: 10px;
+    font-size: medium;
+}
+.data i{
+    margin-top: 25px;
+} */
+
+/* ----------Bascis--------------------- */
+select {
+    display: none;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+h1 {
+    font-size:68px;
+    color:#283444; 
+    margin:0px 0px 30px 0px;
+    padding:0px;
+    line-height: 1.2;
+    font-weight:700;
+}
+
+h2 {
+    font-size:48px;
+    color:#283444;
+    margin:0px 0px 20px 0px;
+    padding:0px;
+    line-height: 1.2;
+    font-weight:700;}
+h3 {
+    font-size:30px;
+    color:#283444;
+    margin:0px 0px 6px 0px;
+    padding:0px;
+    line-height: 1.2;
+    font-weight:700;}
+h5 {
+    font-size:20px;
+    color:#283444; 
+    margin:0px 0px 20px 0px;
+    padding:0px;
+    line-height: 1.2;
+    font-weight:700;
+}
+
+h6 {font-size:16px;
+    color:#283444;
+    margin:0px 0px 15px 0px;
+    line-height: 1.1;
+    font-weight:600;
+} 
+
+body {
+	overflow-x:hidden;
+	color:#333333;
+	font-size:16px;
+	line-height:28px; 
+	margin:0px; 
+	padding:0px; 
+	outline:none;
+	text-decoration:none;
+	list-style:none;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	background-color:rgba(246,250,253,255);
+    width:100%;
+}
+body,html {
+    overflow-x:hidden;
+}
+p{
+    color:#333333;font-size:16px;
+    line-height:28px;
+     margin:-32px -21px 9px 0px;
+     font-family: 'Open Sans', sans-serif;
+    }
+ul, ol {list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a:hover{ 
+    text-decoration:none;
+}
+
+
+/* -----------------------------Header------------------------------ */
+.pharmacy{
+    border: #A8B6C5 solid;
+    border-width: 1px;
+    padding: 4px;
+    border-radius: 10px;
+ 
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+header {
+    position: relative;
+    padding: 1% 10%;
+    background-color: white;
+}
+.logo img
+{max-width:230px;
+}
+.desktopmenu ul li{
+    display:inline-block; 
+    padding-right:20px;
+}
+.desktopmenu ul li a {
+    color:#048cfc;
+    font-size: 14px;
+   
+}
+
+.desktoplogin{
+    text-align:right;
+    }
+.desktoplogin ul li{
+    display:inline-block;
+     padding-right:20px;
+    }
+.desktoplogin ul li:last-child{
+    padding-right:0px;
+}
+.desktoplogin ul li a{ 
+    color:#3C495A;
+     font-size:14px;
+    font-weight:600;
+    }
+.desktoplogin ul li a.registerbtn{
+    color:#fff;
+    background-color: #048cfc;
+    color: #fff;
+     border:none;
+     padding: 12px 30px;
+      border-radius:5px;
+    }
+.desktoplogin ul li a.registerbtn:hover {
+    background-color:#0079dd;
+    color:#fff;
+}
+
+.desktoplogin ul li a.arabic{
+    font-family: 'DubaiBold';
+     color:#909FBA;
+      font-weight:normal;
+}
+
+
+/* -------------Section1----------------------- */
+.banner{
+    position:relative;
+    margin-left: 10%;
+
+}
+.banner p{
+    color:rgba(146,149,151,255); 
+    margin-top: 0px;
+    font-size: large;
+    margin-bottom:25px;
+}
+
+
+/* -----------------Section2----------------------- */
+
+
+
+.divcard{
+    margin-left: 10%;
+    display: flex;
+}
+
+.dimond{
+    margin-top: 10%;
+    margin-left: 3%;
+
+}
+.jd{
+    margin-top: 0.1em;
+    display: inline;
+}
+
+/* ------------------------Section3------------------- */
+.h5chart{
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.pchart{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.hchart{
+    margin-top: 0px;
+    
+    display: flex;
+}
+.hchart h3{
+    margin-right: 20px;
+    margin-left: 45px;
+    font-size: xx-large;
+
+}
+.pchart p{
+    margin-right: 30px;
+    color: rgba(206,211,217,255);
+    font-size: small;
+}
+
+.chartdiv{
+    margin-bottom: 5%;
+    border-radius:10px;
+    margin-top: 3%;
+    height: 500px;
+    background-color: white;
+    width: 1000px;
+    border: rgba(238,242,245,255) solid;
+    margin-left: 10%;
+}
+
+.chart {
+    --scale: 100;
+  
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: repeat(var(--scale), minmax(0, 1fr)) 1rem;
+    grid-column-gap: 5px;
+    --line-every: 40;
+    background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px);
+    background-size: 100% calc((100% - 1.4rem) / var(--scale) * var(--line-every));
+    margin: 4em auto 9em;
+    padding: 0 1em;
+    position: relative;
+    max-width: 70vw;
+    height: 50%;
+  }
+  
+  .chart::after {
+    background: #fff;
+    bottom: 0;
+    content: ' ';
+    height: 1.4rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+  
+  .date {
+    align-items: center;
+    font-size: small;
+    color: rgba(209,212,216,255);
+    display: flex;
+    grid-row-start: -2;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  
+  .bar {
+    grid-row: var(--start) / -2;
+    background-color: rgba(164,213,254,255);
+    background-size: 1600% 100%;
+    background-position: calc(var(--start) * 1%) 0;
+    border-radius: 5px 5px 0 0;
+    color: #000;
+    list-style: none;
+    position: relative;
+  }
+  
+  .value {
+    background: #fff;
+    bottom: 100%;  
+    display: inline-block;
+    left: 50%;
+    padding: 0 0.4em;
+    position: absolute;
+    transform: translate(-50%, -1px);
+  }
+  
+  :root {
+    font-size: 80%;
+    font-family: sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+/* --------------------------Responseve-------------------- */
+
+
+.btn-style-one.full {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.btn-style-one {
+    display: inline-block;
+    background-color: #048cfc;
+    color: #fff;
+    border: none;
+    padding: 14px 50px;
+    transition: all .3s ease;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+/* -------------------------------------------------------->992-->1438----------------------------------------------- */
+@media only screen and (min-width:992px) and (max-width:1438px) {
+   
+    .h5chart{
+        margin-top: 20px;
+        margin-left: 40px;
+    
+    }
+    .pchart{
+        margin-top: 86px;
+        margin-left: -176px;
+        display: flex;
+    }
+    
+    .hchart{
+        margin-top: 88px;
+        margin-left: -291px;
+        display: flex;
+    }
+    .hchart h3{
+        margin-right: 20px;
+        margin-left: 45px;
+        font-size: larger;
+    
+    }
+    .pchart p{
+        margin-right: 10px;
+        color: rgba(206,211,217,255);
+        font-size: small;
+    }
+    .chartdiv{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-bottom: 5%;
+        border-radius:10px;
+        margin-top: 3%;
+        height: 500px;
+        background-color: white;
+        width: 84%;
+        border: rgba(238,242,245,255) solid;
+        margin-left: 9%;
+    }
+    .chart {
+        --scale: 100;
+        display: grid;
+        grid-auto-columns: 2fr;
+        grid-template-rows: repeat(var(--scale), minmax(0, 1fr)) 1rem;
+        grid-column-gap: 12px;
+        --line-every: 99;
+        background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px);
+        background-size: 100% calc((100% - 1.4rem) / var(--scale) * var(--line-every));
+        margin: 4em auto 9em;
+        padding: 0 1em;
+        position: relative;
+        max-width: 70vw;
+        height: 50%;
+        margin-right: 50px;
+    }
+    .date {
+        align-items: center;
+        font-size: larger;
+        color: rgba(209,212,216,255);
+        display: flex;
+        grid-row-start: -2;
+        justify-content: center;
+        text-align: center;
+        z-index: 2;
+      }
+.pharmacy{
+    border: #A8B6C5 solid;
+    border-width: 1px;
+    padding: 4px;
+    border-radius: 10px;
+ 
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+.desktopmenu ul li a {
+    color:#048cfc;
+    font-size: 14px;
+   
+}
+
+.desktoplogin ul{
+    margin-right: 5%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px
+    }
+
+.desktoplogin ul li a.registerbtn{
+    color:#fff;
+    font-size: small;
+    background-color: #048cfc;
+    color: #fff;
+    border:none;
+    padding: 10px 3px;
+    border-radius:5px;
+    }
+.desktoplogin ul li a.registerbtn:hover {
+    background-color:#0079dd;
+    color:#fff;
+}
+
+}
+
+/* -------------------------------------------------------->758-->992----------------------------------------------- */
+@media (max-width: 960px) {
+    select { 
+        display: flex;
+       
+        border-radius: 15px;
+        border: rgba(5,140,253,255) solid;
+     }
+  }
+
+
+
+@media  (min-width:769px) and (max-width:992px) {
+  
+.section1{
+    margin-left: -94px;
+}
+.desktopmenu, .desktoplogin{ display:none;}
+.logo img {max-width: 180px;}
+.h5chart{
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+.pchart{
+    margin-top: 86px;
+    margin-left: -176px;
+    display: flex;
+}
+
+.hchart{
+    margin-top: 88px;
+    margin-left: -291px;
+    display: flex;
+}
+.hchart h3{
+    margin-right: 20px;
+    margin-left: 45px;
+    font-size: larger;
+
+}
+.pchart p{
+    margin-right: 10px;
+    color: rgba(206,211,217,255);
+    font-size: small;
+}
+.hfinal{
+    margin-left: 20px;
+
+}
+
+.chartdiv{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 5%;
+    border-radius:10px;
+    margin-top: 3%;
+    height: 500px;
+    background-color: white;
+    width: 746px;
+    border: rgba(238,242,245,255) solid;
+    margin-left: -3%;
+}
+
+.chart {
+    --scale: 100;
+    display: grid;
+    grid-auto-columns: 2fr;
+    grid-template-rows: repeat(var(--scale), minmax(0, 1fr)) 1rem;
+    grid-column-gap: 12px;
+    --line-every: 99;
+    background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px);
+    background-size: 100% calc((100% - 1.4rem) / var(--scale) * var(--line-every));
+    margin: 4em auto 9em;
+    padding: 0 1em;
+    position: relative;
+    max-width: 70vw;
+    height: 50%;
+    margin-right: 127px;
+}
+  .chart::after {
+    background: #fff;
+    bottom: 0;
+    content: ' ';
+    height: 1.4rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+  
+
+  
+  .date {
+    align-items: center;
+    font-size: medium;
+    color: rgba(209,212,216,255);
+    display: flex;
+    grid-row-start: -2;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .bar {
+    grid-row: var(--start) / -2;
+    background-color: rgba(164,213,254,255);
+    background-size: 1600% 100%;
+    background-position: calc(var(--start) * 1%) 0;
+    border-radius: 5px 5px 0 0;
+    color: #000;
+    list-style: none;
+    position: relative;
+  }
+.divcard{
+    
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -ms-flex-flow: row wrap;
+     flex-flow: row wrap;
+     margin-right: -15px;
+     margin-left: -15px;
+
+}
+.banner h3{
+
+margin-top: 10%;
+
+}
+.banner p{
+color:rgba(146,149,151,255); 
+margin-top: 0px;
+font-size: large;
+margin-bottom:25px;
+margin-top: 0%;
+}
+
+header {
+position: relative;
+padding: 1% 10%;
+background-color: white;
+}
+
+}
+
+@media only screen and (max-width:767px) {	
+
+.desktopmenu, .desktoplogin{ display:none;}
+.logo img {max-width: 180px;}
+
+
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+
+
+
+
+/* --------------------------------------------------------410----------------------------------------------- */
+
+
+
+@media (max-width: 410px) {
+    .h5chart{
+        margin-top: 40px;
+        margin-left: 40px;
+    
+    }
+    .pchart{
+        margin-top: 40px;
+        margin-left: 40px;
+        display: flex;
+    }
+    
+    .hchart{
+        margin-top: 0px;
+        display: flex;
+    }
+    .hchart h3{
+        margin-right: 20px;
+        margin-left: 45px;
+        font-size: larger;
+    
+    }
+    .pchart p{
+        margin-right: 10px;
+        color: rgba(206,211,217,255);
+        font-size: small;
+    }
+    .hfinal{
+        margin-left: 20px;
+    
+    }
+ 
+    .chartdiv{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-bottom: 5%;
+        border-radius:10px;
+        margin-top: 3%;
+        height: 500px;
+        background-color: white;
+        width: 355px;
+        border: rgba(238,242,245,255) solid;
+        margin-left: -4%;
+    }
+    
+    .chart {
+        --scale: 100;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-rows: repeat(var(--scale), minmax(0, 1fr)) 1rem;
+        grid-column-gap: 5px;
+        --line-every: 99;
+        background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px);
+        background-size: 100% calc((100% - 1.4rem) / var(--scale) * var(--line-every));
+
+        margin: 4em auto 9em;
+        padding: 0 1em;
+        position: relative;
+        max-width: 70vw;
+        height: 50%;
+        margin-right: 195px;
+    }
+      
+      .chart::after {
+        background: #fff;
+        bottom: 0;
+        content: ' ';
+        height: 1.4rem;
+        left: 0;
+        position: absolute;
+        right: 0;
+      }
+      
+
+      
+      .date {
+        align-items: center;
+        font-size: x-small;
+        color: rgba(209,212,216,255);
+        display: flex;
+        grid-row-start: -2;
+        justify-content: center;
+        text-align: center;
+        z-index: 2;
+      }
+      
+      .bar {
+        grid-row: var(--start) / -2;
+        background-color: rgba(164,213,254,255);
+        background-size: 1600% 100%;
+        background-position: calc(var(--start) * 1%) 0;
+        border-radius: 5px 5px 0 0;
+        color: #000;
+        list-style: none;
+        position: relative;
+      }
+      
+      .value {
+        background: #fff;
+        bottom: 100%;  
+        display: inline-block;
+        left: 50%;
+        padding: 0 0.4em;
+        position: absolute;
+        transform: translate(-50%, -1px);
+      }
+      
+
+      :root {
+        font-size: 80%;
+        font-family: sans-serif;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  .divcard{
+    
+    padding: 5%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  
+}
+.banner h3{
+  
+    margin-top: 10%;
+
+}
+.banner p{
+    color:rgba(146,149,151,255); 
+    margin-top: 0px;
+    font-size: large;
+    margin-bottom:25px;
+    margin-top: 0%;
+}
+
+header {
+    position: relative;
+    padding: 1% 10%;
+    background-color: white;
+}
+.banner{
+    position:relative;
+
+    margin-left: 10%;
+
+}
+
+}
+
+
+/* -------------------------------------------------------->410-->495----------------------------------------------- */
+
+
+@media only screen and (min-width:410px) and (max-width:495px) {
+    .h5chart{
+        margin-top: 40px;
+        margin-left: 40px;
+    
+    }
+    .pchart{
+        margin-top: 40px;
+        margin-left: 40px;
+        display: flex;
+    }
+    
+    .hchart{
+        margin-top: 0px;
+        display: flex;
+    }
+    .hchart h3{
+        margin-right: 20px;
+        margin-left: 45px;
+        font-size: larger;
+    
+    }
+    .pchart p{
+        margin-right: 10px;
+        color: rgba(206,211,217,255);
+        font-size: small;
+    }
+    .hfinal{
+        margin-left: 20px;
+    
+    }
+ 
+    .chartdiv{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-bottom: 5%;
+        border-radius:10px;
+        margin-top: 3%;
+        height: 500px;
+        background-color: white;
+        width: 355px;
+        border: rgba(238,242,245,255) solid;
+        margin-left: 8%;
+    }
+    
+    .chart {
+        --scale: 100;
+
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-rows: repeat(var(--scale), minmax(0, 1fr)) 1rem;
+        grid-column-gap: 5px;
+        --line-every: 99;
+        background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px);
+        background-size: 100% calc((100% - 1.4rem) / var(--scale) * var(--line-every));
+        margin: 4em auto 9em;
+        padding: 0 1em;
+        position: relative;
+        max-width: 70vw;
+        height: 50%;
+        margin-right: 195px;
+    }
+      
+      .chart::after {
+        background: #fff;
+        bottom: 0;
+        content: ' ';
+        height: 1.4rem;
+        left: 0;
+        position: absolute;
+        right: 0;
+      }
+      
+      
+      .date {
+        align-items: center;
+        font-size: x-small;
+        color: rgba(209,212,216,255);
+        display: flex;
+        grid-row-start: -2;
+        justify-content: center;
+        text-align: center;
+        z-index: 2;
+      }
+      
+      .bar {
+        grid-row: var(--start) / -2;
+        
+        background-color: rgba(164,213,254,255);
+        background-size: 1600% 100%;
+        background-position: calc(var(--start) * 1%) 0;
+
+        border-radius: 5px 5px 0 0;
+        color: #000;
+        list-style: none;
+        position: relative;
+      }
+      
+      .value {
+        background: #fff;
+        bottom: 100%;  
+        display: inline-block;
+        left: 50%;
+        padding: 0 0.4em;
+        position: absolute;
+        transform: translate(-50%, -1px);
+      }
+    
+      
+      :root {
+        font-size: 80%;
+        font-family: sans-serif;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+  .reverse {
+    flex-direction: column-reverse;
+  }
+  .divcard{
+    
+        padding: 5%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+  
+}
+.banner h3{
+  
+    margin-top: 10%;
+
+}
+.banner p{
+    color:rgba(146,149,151,255); 
+    margin-top: 0px;
+    font-size: large;
+    margin-bottom:25px;
+    margin-top: 0%;
+}
+
+header {
+    position: relative;
+    padding: 1% 10%;
+    background-color: white;
+}
+.banner{
+    position:relative;
+
+    margin-left: 10%;
+
+}
+
+}
+
+
+
+
+/* -------------------------------------------------------->495-->758----------------------------------------------- */
+
+@media only screen and (min-width:495px) and (max-width:769px) {
+    section1{
+        margin-left: -97px;
+    }
+    .desktopmenu, .desktoplogin{ display:none;}
+    .logo img {max-width: 180px;}
+    
+ 
+    header {
+        position: relative;
+        padding: 1% 10%;
+        background-color: white;
+    }
+    .divcard{
+    
+       padding-left: 10px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: 34px;
+  
+}
+.banner h3{
+ 
+    margin-top: 10%;
+
+}
+.banner p{
+    color:rgba(146,149,151,255); 
+    margin-top: 0px;
+    font-size: large;
+    margin-bottom:25px;
+    margin-top: 0%;
+}
+.h5chart{
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.pchart{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.hchart{
+    margin-top: 0px;
+    display: flex;
+}
+.hchart h3{
+    margin-right: 20px;
+    margin-left: 45px;
+    font-size: larger;
+
+}
+.pchart p{
+    margin-right: 10px;
+    color: rgba(206,211,217,255);
+    font-size: small;
+}
+.hfinal{
+    margin-left: 20px;
+
+}
+
+.chartdiv{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 5%;
+    border-radius:10px;
+    margin-top: 3%;
+    height: 500px;
+    background-color: white;
+    width: 497px;
+    border: rgba(238,242,245,255) solid;
+    margin-left: -3%;
+}
+
+.chart {
+    --scale: 100;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: repeat(var(--scale), minmax(0, 1fr)) 1rem;
+    grid-column-gap: 5px;
+    --line-every: 99;
+    background-image: linear-gradient(to bottom, #ccc 1px, transparent 1px);
+    background-size: 100% calc((100% - 1.4rem) / var(--scale) * var(--line-every));
+
+    margin: 4em auto 9em;
+    padding: 0 1em;
+    position: relative;
+    max-width: 70vw;
+    height: 50%;
+    margin-right: 195px;
+}
+  
+  .chart::after {
+    background: #fff;
+    bottom: 0;
+    content: ' ';
+    height: 1.4rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+  
+
+  
+  .date {
+    align-items: center;
+    font-size: medium;
+    color: rgba(209,212,216,255);
+    display: flex;
+    grid-row-start: -2;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .bar {
+    grid-row: var(--start) / -2;
+    background-color: rgba(164,213,254,255);
+    background-size: 1600% 100%;
+    background-position: calc(var(--start) * 1%) 0;
+    border-radius: 5px 5px 0 0;
+    color: #000;
+    list-style: none;
+    position: relative;
+  }
+}
+
+input,textarea { -webkit-user-select:text;}
+select{-webkit-appearance: none;-moz-appearance: none;appearance: none;padding:1px 5px;}
+
+ 
+
+
